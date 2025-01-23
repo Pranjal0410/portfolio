@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80 group">
             <div className="rounded-full overflow-hidden border-4 border-blue-400 group-hover:animate-glow">
               <img
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e"
+                src="src/images/WhatsApp Image 2025-01-23 at 23.46.58_432a7100.jpg"
                 alt="Professional Portrait"
                 className="w-full h-full object-cover scale-100 group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />
