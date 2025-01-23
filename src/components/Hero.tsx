@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80 group">
             <div className="rounded-full overflow-hidden border-4 border-blue-400 group-hover:animate-glow">
               <img
-                src="src/images/WhatsApp Image 2025-01-23 at 23.46.58_432a7100.jpg"
+                src="https://media-hosting.imagekit.io//735d4a500ce54194/WhatsApp%20Image%202025-01-23%20at%2023.46.58_432a7100.jpg?Expires=1832265494&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ITPjGhgk8BOuEnaySEik98uPcBUYJwWhw0RDg4d5rq0jFc14UeBSRVjPJdjMm44-GF5j5iUBQRkPmJZxHCZ2tUPaZbymijk2von5cRQmTYHG1lkZtWPFyO62MQBWnsJDFjRMs5tlWw0ia~o-0JhkR5G5JKF-kqMK9SX7vUVhsgfmWTNCvNKQl1IqYW-qEk3PAtOX5JpU2phbhPyBDGRxZbEooV6D5oslXDmhrYeAvPBpGbSSIsuVufPx949GhKxYnWmtYiKpOJ5vi9-hToot5KFjETWTru3I0sXRbOzN9jMWId0UpF4R40ueUJjDuxHN4eV6TLsNwgYA1xoSrAtPIA__"
                 alt="Professional Portrait"
                 className="w-full h-full object-cover scale-100 group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />
