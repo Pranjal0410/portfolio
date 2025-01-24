@@ -3,24 +3,24 @@ import { Quote, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Sarah Johnson',
-    role: 'Marketing Director',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330',
-    content: 'An exceptional digital marketer with a natural talent for understanding brand needs and delivering outstanding results.',
+    name: 'Sushant',
+    role: 'Chitkara University Society President',
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQEgrYwuuDPHJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1683096181237?e=1743033600&v=beta&t=Eh_bgL12lXU8fVNbX3qO613dJ_j6H8cdx2UATQqgE4o',
+    content: "The event management website Pranjal developed for our society has transformed how we organize and promote events. It's intuitive, user-friendly, and helped us boost attendance this semester",
     rating: 5
   },
   {
-    name: 'Michael Chen',
-    role: 'Startup Founder',
+    name: 'Neeraj',
+    role: 'Preschool Owner',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e',
-    content: 'Impressed by the strategic approach to our marketing challenges. The results exceeded our expectations.',
+    content: 'Pranjal helped us create a targeted social media strategy that increased our online presence significantly.',
     rating: 5
   },
   {
-    name: 'Emma Williams',
-    role: 'Content Manager',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80',
-    content: 'Exceptional creativity combined with data-driven decision making. A true professional in digital marketing.',
+    name: 'Aastha',
+    role: 'Event Coordinator',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQHYymGHTjlD2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728719600555?e=1743033600&v=beta&t=sRm74gC1qvd9a-2WJI4h5o9hb6A4KTBYA_lzM28MZaA',
+    content: 'Working with Pranjal was a game-changer for our event promotion. Her strategic approach to digital marketing and user engagement drove impressive turnout and visibility. ',
     rating: 5
   }
 ];

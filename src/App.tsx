@@ -6,11 +6,16 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
 import Blog from './components/Blog';
-import Contact from './components/Contact';
-import ParallaxBackground from './components/ParallaxBackground';
+import Footer from './components/Footer';
+// import ParallaxBackground from './components/ParallaxBackground';
 
 function App() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    return false;
+  });
   const [scrollY, setScrollY] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -56,8 +61,8 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden">
-      <ParallaxBackground scrollY={scrollY} />
+    <div className={`min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white relative overflow-hidden transition-colors duration-300`}>
+      {/* <ParallaxBackground scrollY={scrollY} /> */}
       <div className="relative z-10">
         <Header isDark={isDark} toggleDark={toggleDark} />
         <Hero scrollY={scrollY} />
@@ -66,7 +71,7 @@ function App() {
         <Projects scrollY={scrollY} />
         <Testimonials scrollY={scrollY} />
         <Blog scrollY={scrollY} />
-        <Contact />
+        <Footer />
       </div>
     </div>
   );
