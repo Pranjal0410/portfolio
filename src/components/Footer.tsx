@@ -31,15 +31,15 @@ const Footer = () => {
             <div className="space-y-3">
               <a href="mailto:contact@example.com" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
-                contact@example.com
+                udhwanipranjal@gmail.com
               </a>
               <a href="tel:+1234567890" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors">
                 <Phone className="w-5 h-5 mr-2" />
-                +1 (234) 567-890
+                +91 7018619964
               </a>
               <div className="flex items-center text-gray-400">
                 <MapPin className="w-5 h-5 mr-2" />
-                San Francisco, CA
+                Chandigarh, Punjab
               </div>
             </div>
           </div>
@@ -47,13 +47,13 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-white mb-4">Follow Me</h3>
             <div className="flex space-x-4">
-              <a href="#" className="p-2 bg-gray-700/50 rounded-full hover:bg-blue-500/20 transition-colors">
+              <a href="https://www.linkedin.com/in/pranjal-udhwani/" className="p-2 bg-gray-700/50 rounded-full hover:bg-blue-500/20 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="p-2 bg-gray-700/50 rounded-full hover:bg-blue-500/20 transition-colors">
+              <a href="https://x.com/PranjalUdhwani_" className="p-2 bg-gray-700/50 rounded-full hover:bg-blue-500/20 transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="p-2 bg-gray-700/50 rounded-full hover:bg-blue-500/20 transition-colors">
+              <a href="https://www.instagram.com/pranjaludhwani_/" className="p-2 bg-gray-700/50 rounded-full hover:bg-blue-500/20 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
             </div>

@@ -61,7 +61,7 @@ const Hero: React.FC<HeroProps> = ({ scrollY }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mt-24">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold">
                 <span className="block text-white mb-4">Digital Marketing</span>
                 <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text inline-block min-w-[280px]">
                   {displayText}
@@ -93,12 +93,17 @@ const Hero: React.FC<HeroProps> = ({ scrollY }) => {
                 </span>
               </button>
 
-              <button className="group px-8 py-4 border-2 border-blue-400 rounded-full hover:bg-blue-400/10 transition-all duration-300">
+              <a 
+                href="https://wa.link/gq2xv0" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="group px-8 py-4 border-2 border-blue-400 rounded-full hover:bg-blue-400/10 transition-all duration-300 inline-flex"
+              >
                 <span className="flex items-center justify-center gap-2">
                   <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   Contact Me
                 </span>
-              </button>
+              </a>
             </motion.div>
 
             <motion.div
