@@ -61,7 +61,7 @@ const Hero: React.FC<HeroProps> = ({ scrollY }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mt-24">
                 <span className="block text-white mb-4">Digital Marketing</span>
                 <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text inline-block min-w-[280px]">
                   {displayText}
