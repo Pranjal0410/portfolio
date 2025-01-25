@@ -8,7 +8,8 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87',
     date: '2024-05-15',
     readTime: '5 min read',
-    category: 'Event Marketing'
+    category: 'Event Marketing',
+    url: 'https://maximizing-event-marketi-laq0vzp.gamma.site/'
   },
   {
     title: 'Email Marketing Strategies That Work',
@@ -16,7 +17,8 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec',
     date: '2024-05-10',
     readTime: '7 min read',
-    category: 'Email Marketing'
+    category: 'Email Marketing',
+    url: 'https://medium.com/@pranjal-udhwani/email-marketing-strategies-that-work-456'
   },
   {
     title: 'Social Media Engagement: A Beginner\'s Guide',
@@ -24,7 +26,8 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868',
     date: '2024-05-05',
     readTime: '6 min read',
-    category: 'Social Media'
+    category: 'Social Media',
+    url: 'https://medium.com/@pranjal-udhwani/social-media-engagement-a-beginners-guide-789'
   }
 ];
 
@@ -78,10 +81,15 @@ const Blog = ({ scrollY }: { scrollY: number }) => {
                   </h3>
                   <p className="text-gray-300 mb-4">{post.excerpt}</p>
 
-                  <button className="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                  <a
+                    href={post.url}
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="flex items-center text-blue-400 hover:text-blue-300 transition-colors group"
+                  >
                     Read More
                     <ArrowRight className="w-4 h-4 ml-2 transform group-hover:translate-x-2 transition-transform" />
-                  </button>
+                  </a>
                 </div>
               </div>
             </article>

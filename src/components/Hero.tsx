@@ -85,13 +85,18 @@ const Hero: React.FC<HeroProps> = ({ scrollY }) => {
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <button className="group relative overflow-hidden px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full">
+              <a 
+                href="https://drive.google.com/file/d/1rKCY6kChmCJHNXeksr0rLc_LNUgZfLpH/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative overflow-hidden px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full inline-flex"
+              >
                 <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <span className="relative flex items-center justify-center gap-2">
                   <Download className="w-5 h-5 group-hover:animate-bounce" />
                   Download Resume
                 </span>
-              </button>
+              </a>
 
               <a 
                 href="https://wa.link/gq2xv0" 

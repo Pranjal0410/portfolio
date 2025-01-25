@@ -12,7 +12,7 @@ const Skills: React.FC<SkillsProps> = ({ scrollY }) => {
       icon: <Globe size={32} className="text-blue-400" />,
       title: 'Digital Marketing',
       description: 'Creating impactful online presence and brand strategies',
-      tools: ['Social Media', 'Content Strategy', 'Brand Development'],
+      tools: ['HubSpot Marketing Hub', 'Klaviyo', 'Caption Ai'],
       color: 'from-blue-400 to-purple-400',
       bgColor: 'from-blue-400/10 to-purple-400/10'
     },
@@ -20,7 +20,7 @@ const Skills: React.FC<SkillsProps> = ({ scrollY }) => {
       icon: <Target size={32} className="text-purple-400" />,
       title: 'SEO & Analytics',
       description: 'Optimizing content and analyzing performance metrics',
-      tools: ['Google Analytics', 'SEO Tools', 'Keyword Research'],
+      tools: ['Google Analytics','SEMRush', 'Ubersuggest'],
       color: 'from-purple-400 to-pink-400',
       bgColor: 'from-purple-400/10 to-pink-400/10'
     },
@@ -28,7 +28,7 @@ const Skills: React.FC<SkillsProps> = ({ scrollY }) => {
       icon: <Palette size={32} className="text-pink-400" />,
       title: 'Content Creation',
       description: 'Developing engaging content for various platforms',
-      tools: ['Content Writing', 'Visual Design', 'Social Media Content'],
+      tools: ['Canva', 'Adobe Express', 'Capcut'],
       color: 'from-pink-400 to-red-400',
       bgColor: 'from-pink-400/10 to-red-400/10'
     },
@@ -36,7 +36,7 @@ const Skills: React.FC<SkillsProps> = ({ scrollY }) => {
       icon: <BarChart2 size={32} className="text-red-400" />,
       title: 'Growth Marketing',
       description: 'Implementing strategies for sustainable growth',
-      tools: ['Market Research', 'Campaign Planning', 'Growth Strategy'],
+      tools: ['Zapier', 'Amplitude', 'Optimizely'],
       color: 'from-red-400 to-orange-400',
       bgColor: 'from-red-400/10 to-orange-400/10'
     },
@@ -44,7 +44,7 @@ const Skills: React.FC<SkillsProps> = ({ scrollY }) => {
       icon: <Mail size={32} className="text-orange-400" />,
       title: 'Email Marketing',
       description: 'Creating effective email campaigns and newsletters',
-      tools: ['Campaign Design', 'Email Strategy', 'Analytics'],
+      tools: ['Mailchimp', 'HubSpot', 'Sendinblue'],
       color: 'from-orange-400 to-yellow-400',
       bgColor: 'from-orange-400/10 to-yellow-400/10'
     },
@@ -52,7 +52,7 @@ const Skills: React.FC<SkillsProps> = ({ scrollY }) => {
       icon: <Share2 size={32} className="text-yellow-400" />,
       title: 'Social Media',
       description: 'Managing and growing social media presence',
-      tools: ['Community Management', 'Content Planning', 'Engagement'],
+      tools: ['Caption Ai', 'Capcut', 'VN video'],
       color: 'from-yellow-400 to-green-400',
       bgColor: 'from-yellow-400/10 to-green-400/10'
     }
